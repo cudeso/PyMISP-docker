@@ -2,8 +2,8 @@ FROM python:latest
 MAINTAINER Koen Van Impe <koen.vanimpe@cudeso.be>
 
 # Use cudeso repo pending PR accept
-RUN git clone https://github.com/cudeso/PyMISP.git
-#RUN git clone https://github.com/MISP/PyMISP.git
+#RUN git clone https://github.com/cudeso/PyMISP.git
+RUN git clone https://github.com/MISP/PyMISP.git
 
 RUN pip3 install pymisp
 
